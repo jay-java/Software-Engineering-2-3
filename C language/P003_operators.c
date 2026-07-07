@@ -51,7 +51,7 @@ void main()
     printf("i1 = %d\n",i1);
 
     printf("i = %d\n",i);
-    //4.conditional -> >,>=,<,<=,==,!=
+    //4.relational -> >,>=,<,<=,==,!=
     //5.logical -> &&, || ,!
     //conditional statements
 

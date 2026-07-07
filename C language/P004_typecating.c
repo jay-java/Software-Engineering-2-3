@@ -13,6 +13,7 @@ void main(){
     int j;
     scanf("%d",&j);
 
+    //this line is for explicit typecasting because we cannot store floating type data into integer
     float k = (float)i / (float)j;
     printf("k = %f\n",k);
     
