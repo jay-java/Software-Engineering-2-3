@@ -50,4 +50,28 @@ void main(){
         }
         printf("\n");
     }
+
+    for(i=1;i<=5;i++){
+        for(s = 2;s<=i;s++){
+            printf("  ");
+        }
+        for(j=5;j>=i;j--){
+            printf("* ");
+        }
+        printf("\n");
+    }
+
+    
+    int c =15;
+    for(i=1;i<=5;i++){
+        for(s = 2;s<=i;s++){
+            printf(" ");
+        }
+        for(j=5;j>=i;j--){
+            printf("%d ",c);
+            c--;
+        }
+        printf("\n");
+    }
+
 }
