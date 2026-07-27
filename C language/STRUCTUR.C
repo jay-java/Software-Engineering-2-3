@@ -4,7 +4,7 @@ struct student{
 	int id;
 	char name[30];
 	void setId(int id){
-		if(id < 0){
+		if(id <= 0){
 			printf("id not valid\n");
 		}
 		else
@@ -13,7 +13,9 @@ struct student{
 		}
 	}
 	void setName(char name[30]){
-		printf("name = %s\n	",name);
+		if(strlen(name) < 25){
+			printf("name = %s\n	",name);
+		}
 	}
 };
 

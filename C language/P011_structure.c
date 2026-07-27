@@ -4,7 +4,6 @@ struct student{
     int id;
     char name[30];
     float per;
-
 };
 void main(){
     struct student s1 = {1, "user 1",76.65};
@@ -14,10 +13,6 @@ void main(){
     struct student s3;
     s3.id = 12;
     printf("s3 id = %d\n",s3.id);
-
     strcpy(s3.name,"user 3");
     printf("s3 name = %s",s3.name);
-
-
-
 }
