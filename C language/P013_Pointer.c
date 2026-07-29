@@ -16,7 +16,7 @@ void main(){
 
     //1.null pointer
     int *q = NULL;
-    
+        
     //2.void pointer
     void *ptr;
 

@@ -1,0 +1,1 @@
+Hi folks we are learning file handling in C lang
